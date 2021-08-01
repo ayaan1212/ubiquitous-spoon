@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+section{
+    padding: 70px;
+    padding-top: 60PX;
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background-image:url(11.JPEG);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+.solsys{
+    position: relative;
+    min-height: 100vh;
+    background-color: #8fceff;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background: #3e606f;
+    font-family: "Helvetica", sans-serif;
+    font-size: 26px;
+    color: black;
+  }
+  
+  header h1 {
+    text-align: center;
+    height: 9px;
+    padding-top: 50px;
+  }
+  
+  
+  /* Navbar Styling */
+  nav {
+    background: #91aa9d;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: -50px;
+    padding: 5px 0;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  nav li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 22px;
+  }
+  
+  nav a:hover {
+    background: #193449;
+  }
+  
+  /* Sticky Navigation */
+  .navScrolled {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 5px #000;
+  }
+
+
+solsys .h2{
+ padding-top:50px;
+}
+
+/* slideshow taşıyıcı */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* varsayılan olarak görselleri gizliyoruz */
+.mySlides {
+  display: none;
+}
+
+/* sonraki ve önceki butonları */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* sonraki butonunun pozisyonu */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* üzerine gelince hafif bir efekt verelim */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* görsel başlığı */
+.text {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* görsel numaraları */
+.numbertext {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* nokta navigasyonu */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* geçiş animasyonu */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+p
+{
+	margin: 0 0 10px;
+}
+
+
+
+.container {
+	width: 100%;
+	margin: auto;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 200px;
+}
+
+
+.animate {
+	font-size: 25px;
+	margin: 100px 0 0;
+}
+
+.animate span {
+	display: inline-block;
+}
+
+
+
+.animate span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+
+
+/* Animation One */
+
+.one span {
+	color: black;
+	opacity: 0;
+	transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+	animation: revolveScale .4s forwards;
+}
+
+@keyframes revolveScale {
+	60% {
+		transform: translate(20px, 20px) rotate(30deg) scale(.3);
+	}
+
+	100% {
+		transform: translate(0) rotate(0) scale(1);
+		opacity: 1;
+	}
+}
+
+
+.gotopbtn.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+.gotopbtn{
+  display: flex;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  bottom: 16px;
+  right: 40px;
+text-decoration: none;
+text-align: center;
+font-size: 50px;
+color: black;
+align-items: center;
+justify-content: center;
+transition: 5s;
+}
+.duh{
+  position: relative;
+  min-height: 100vh;
+  background-color:#29e684;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #727172 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: #3A3A3A 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 25em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+	background: #3A3A3A;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:550px;
+	height:100VH;
+	margin:0 auto;
+}
+.footer_center{
+	width:800px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+
+
